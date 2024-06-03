@@ -1,0 +1,181 @@
+/* Algemene opmaak */
+body {
+  font-family: "Arial Black", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #ffea00;
+  text-align: center;
+  padding: 7px 0;
+  position: relative; /* Maak de positie relatief voor het positioneren van de icoontjes */
+}
+
+/* Titel */
+.title {
+  font-size: 48px; /* Zet de fontgrootte van het h1-element terug naar 48px */
+  margin: 0;
+  padding: 20px;
+  border-bottom: 3px solid #ffea00;
+}
+
+#playButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff7f00;
+  color: #222;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#playButton:hover {
+  background-color: #c23616;
+}
+
+/* Informatie-icoontje */
+.info-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px; /* Houd het icoontje aan de rechterkant */
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Informatiebericht */
+.info-message {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Hover-effect voor informatiebericht */
+.info-icon:hover + .info-message {
+  display: block;
+}
+
+/* Container */
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Categorieën */
+.category {
+  background-color: #444;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 5px #ff7f00;
+}
+
+.category-title {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #ffea00;
+}
+
+/* Knoppen */
+.button {
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #ff7f00;
+  color: #222;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff6c00;
+}
+
+/* Hamburgercontainer */
+.hamburger-container {
+  text-align: center;
+}
+
+.hamburger-image {
+  margin-right: 360px;
+  padding: 50px;
+}
+
+/* Toppings */
+.toppings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.topping {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #ffea00;
+  color: #222;
+  border-radius: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.ham-btn,
+.rund-btn,
+.kip-btn,
+.tomaat-btn,
+.sla-btn,
+.kaas-btn,
+.bacon-btn,
+.augurk-btn,
+.ui-btn,
+.ketchup-btn,
+.mayonaise-btn,
+.mosterd-btn {
+  background-color: #c23616;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.ham-btn:hover,
+.rund-btn:hover,
+.kip-btn:hover,
+.tomaat-btn:hover,
+.sla-btn:hover,
+.kaas-btn:hover,
+.bacon-btn:hover,
+.augurk-btn:hover,
+.ui-btn:hover,
+.ketchup-btn:hover,
+.mayonaise-btn:hover,
+.mosterd-btn:hover {
+  background-color: #780d04;
+}
+
+.info-message {
+  background-color: #333; 
+  color: #fff; 
+  border-radius: 8px;
+  font-size: 16px; 
+  width: 200px;
+}
