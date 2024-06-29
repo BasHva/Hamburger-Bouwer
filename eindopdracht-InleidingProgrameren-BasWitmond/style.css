@@ -1,0 +1,145 @@
+body {
+  font-family: "Arial Black", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  overflow: hidden;
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: #ffea00;
+  padding: 7px 0;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0;
+  padding: 20px;
+  border-bottom: 3px solid #ffea00;
+}
+
+#playButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff7f00;
+  color: #222;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#playButton:hover {
+  background-color: #c23616;
+}
+
+.info-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.info-message {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.info-icon:hover + .info-message {
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.category {
+  background-color: #444;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 5px #ff7f00;
+}
+
+.category-title {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #ffea00;
+}
+
+.button {
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #ff7f00;
+  color: #222;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff6c00;
+}
+
+.hamburger-container {
+  text-align: center;
+}
+
+.hamburger-image {
+  margin-right: 360px;
+  padding: 50px;
+}
+
+.toppings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.topping {
+  display: none;
+}
+
+.kaas-btn,
+.rund-btn,
+.ketchup-btn {
+  background-color: #c23616;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.kaas-btn:hover,
+.rund-btn:hover,
+.ketchup-btn:hover {
+  background-color: #780d04;
+}
+
+.info-message {
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 200px;
+}
