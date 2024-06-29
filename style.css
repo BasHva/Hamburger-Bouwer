@@ -118,34 +118,21 @@ header {
 }
 
 .topping {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  padding: 15px 30px;
-  font-size: 24px;
-  background-color: #ffea00;
-  color: #222;
-  border-radius: 25px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  display: none;
 }
 
-.rund-btn,
-.tomaat-btn,
-.sla-btn,
 .kaas-btn,
-.augurk-btn,
-.ketchup-btn{
+.rund-btn,
+.ketchup-btn {
   background-color: #c23616;
   color: #fff;
   border-radius: 25px;
   padding: 10px;
 }
 
-.rund-btn:hover,
-.tomaat-btn:hover,
-.sla-btn:hover,
 .kaas-btn:hover,
-.augurk-btn:hover,
-.ketchup-btn:hover{
+.rund-btn:hover,
+.ketchup-btn:hover {
   background-color: #780d04;
 }
 
